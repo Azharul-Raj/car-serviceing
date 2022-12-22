@@ -6,6 +6,7 @@ import Register from "../pages/Form/Register";
 import Checkout from "../pages/Checkout/Checkout";
 import Orders from "../pages/Orders/Orders";
 import Protected from "../pages/Protected/Protected";
+import Map from "../pages/Map/Map";
 
 export const route = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ export const route = createBrowserRouter([
             {
                 path: '/',
                 element:<Home/>
+            },
+            {
+                path: '/map',
+                element:<Map/>
             },
             {
                 path: '/login',

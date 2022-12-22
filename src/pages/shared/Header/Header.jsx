@@ -12,7 +12,7 @@ const Header = () => {
   console.log(user);
   const menuItem = <>
       <li><Link to='/'>Home</Link></li>
-      {/* <li><Link to='/checkout'>Checkout</Link></li> */}
+      <li><Link to='/map'>Map</Link></li>
       <li><Link to='/orders'>Orders</Link></li>
       <li><Link to='/'>Blog</Link></li>
       <li><Link to='/'>Contact</Link></li>

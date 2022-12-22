@@ -1,4 +1,5 @@
 import { RouterProvider } from "react-router-dom";
+import 'mapbox-gl/dist/mapbox-gl.css';
 import { route } from "./layout/route";
 import './App.css'
 
